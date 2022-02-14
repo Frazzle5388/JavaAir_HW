@@ -7,4 +7,5 @@ public class Pilot extends CabinCrewMember {
     public Pilot(String name, Rank rank, String licenceNumber) {
         super(name, rank);
         this.licenceNumber = licenceNumber;
+    }
 }
